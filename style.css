@@ -16,11 +16,13 @@ a {
 
 /* Primary Color */
 .p-color {
-    color: #FD6E0A;
+    /* color: #FD6E0A; */
+    color: #ff00ff;
 }
 
 .p-bg {
-    background-color: #FD6E0A;
+    /* background-color: #FD6E0A; */
+    background-color: #ff00ff;
 }
 
 /* Header and Navigation styles */
