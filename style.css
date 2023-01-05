@@ -25,6 +25,7 @@ a {
 
 /* Header */
 .header {
+    background-color: #FFF8F3;
     background-image: url(./assets/images/developer.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -72,7 +73,7 @@ nav ul li a {
     align-items: center;
 
     background-image: url(/assets/images/header_bg.png);
-    background-position: right center;
+    background-position: right bottom;
     background-repeat: no-repeat;
 }
 
