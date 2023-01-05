@@ -34,6 +34,21 @@ a {
     background-color: #FFF8F3;
 }
 
+/* Title Color */
+.title-color {
+    color: #181818;
+}
+
+/* Subtitle Color */
+.stitle-color {
+    color: #474747;
+}
+
+/* Description Color */
+.des-color {
+    color: #757575;
+}
+
 /* ================================== */
 /* ======== Header ================== */
 /* ================================== */
@@ -91,7 +106,7 @@ nav ul li a {
 }
 
 .banner .subtitle {
-    color: #474747;
+    /* color: #474747; */
     font-weight: 600;
     font-size: 45px;
     line-height: 61px;
@@ -100,11 +115,10 @@ nav ul li a {
 }
 
 .banner .title {
-    color: #181818;
+    /* color: #181818; */
     font-weight: 700;
     font-size: 85px;
     line-height: 116px;
-
     margin-bottom: 20px;
 }
 
@@ -113,7 +127,6 @@ nav ul li a {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-
     margin-bottom: 30px;
 }
 
@@ -170,6 +183,7 @@ section .description {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    /* color: #757575; */
 }
 
 section.about-me .infos {
