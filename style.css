@@ -23,12 +23,20 @@ a {
     background-color: #FD6E0A;
 }
 
-/* Header and Navigation styles */
+/* Header */
+.header {
+    background-image: url(./assets/images/developer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+}
+
+/* Navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 230px;
+    margin: 50px 100px;
 }
 
 .nav-title {
@@ -54,4 +62,65 @@ nav ul li a {
     font-weight: 700;
     font-size: 20px;
     border-radius: 5px;
+}
+
+/* Hero Section */
+.banner {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url(/assets/images/header_bg.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.banner .subtitle {
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+
+    margin-bottom: 5px;
+}
+
+.banner .title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+
+    margin-bottom: 20px;
+}
+
+.banner .description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    margin-bottom: 30px;
+}
+
+.banner .cv {
+    color: #ffffff;
+    margin-right: 30px;
+}
+
+.banner .contact {
+    border: 1px solid #FD6E0A;
+}
+
+.banner .cv, .banner .contact {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.profile-pic {
+    width: 40%;
 }
