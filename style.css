@@ -1,4 +1,6 @@
-/* Initializing CSS */
+/* ================================== */
+/* ======== Initializing CSS ======== */
+/* ================================== */
 * {
     margin: 0;
     padding: 0;
@@ -14,25 +16,36 @@ a {
     color: inherit;
 }
 
+/* ================================== */
+/* ======== Colors ================== */
+/* ================================== */
 /* Primary Color */
 .p-color {
     color: #FD6E0A;
 }
 
+/* Primary Background Color */
 .p-bg {
     background-color: #FD6E0A;
 }
 
-/* Header */
-.header {
+/* Secondary Background Color */
+.s-bg {
     background-color: #FFF8F3;
+}
+
+/* ================================== */
+/* ======== Header ================== */
+/* ================================== */
+.header {
+    /* background-color: #FFF8F3; */
     background-image: url(./assets/images/developer.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top left;
 }
 
-/* Navigation styles */
+/* ======== Navigation styles ======= */
 nav {
     display: flex;
     justify-content: space-between;
@@ -65,7 +78,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
-/* Hero Section */
+/* ======== Hero Section ============ */
 .banner {
     margin-left: 100px;
     display: flex;
@@ -113,7 +126,8 @@ nav ul li a {
     border: 1px solid #FD6E0A;
 }
 
-.banner .cv, .banner .contact {
+.banner .cv,
+.banner .contact {
     text-align: center;
     font-weight: 700;
     font-size: 20px;
@@ -124,4 +138,59 @@ nav ul li a {
 
 .profile-pic {
     width: 40%;
+}
+
+/* ================================== */
+/* ======== Main ==================== */
+/* ================================== */
+.main {
+    /* color: #FFF8F3; */
+    width: 1140px;
+    margin: 130px auto;
+}
+
+/* ======== About Me ================ */
+section.about-me {
+    padding: 130px 156px;
+}
+
+section.about-me .title,
+section.about-me .description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section .title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+section .description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+section.about-me .infos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.about-me .infos .info-title,
+section.about-me .infos .info-description {
+    text-align: center;
+}
+
+section.about-me .infos .info-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+section.about-me .infos .info-description {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
 }
