@@ -130,7 +130,8 @@ nav ul li a {
     margin-bottom: 30px;
 }
 
-.banner .cv {
+.banner .cv,
+.resume-summary .cv {
     color: #ffffff;
     margin-right: 30px;
 }
@@ -140,6 +141,7 @@ nav ul li a {
 }
 
 .banner .cv,
+.resume-summary .cv,
 .banner .contact {
     text-align: center;
     font-weight: 700;
@@ -211,6 +213,10 @@ section.about-me .infos .info-description {
 }
 
 /* ======== What I Do ============================= */
+section.what-i-do {
+    margin-bottom: 130px;
+}
+
 section.what-i-do .title,
 section.what-i-do .description {
     text-align: center;
@@ -246,3 +252,57 @@ section.what-i-do .tech-description {
 }
 
 /* ======== A Summary of My Resume ================ */
+section.resume-summary {
+    margin-bottom: 130px;
+}
+
+/* section.resume-summary table {
+    border-spacing: 60px;
+} */
+
+section.resume-summary caption {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+
+    margin-bottom: 112px;
+}
+
+section.resume-summary th {
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+
+    padding: 0 35px 30px 35px;
+}
+
+section.resume-summary td {
+    padding: 0 35px 60px 35px;
+}
+
+section.resume-summary h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+
+    margin-bottom: 10px;
+}
+
+section.resume-summary h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+section.resume-summary p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+section.resume-summary .cv-btn-container {
+    margin: 30px 0 112px;
+    text-align: center;
+}
+
