@@ -165,6 +165,7 @@ nav ul li a {
 /* ======== About Me ================ */
 section.about-me {
     padding: 130px 156px;
+    margin-bottom: 130px;
 }
 
 section.about-me .title,
@@ -207,4 +208,39 @@ section.about-me .infos .info-description {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+}
+
+/* ======== What I Do =============== */
+section.what-i-do .title,
+section.what-i-do .description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.what-i-do .description {
+    font-size: 18px;
+    padding: 0 100px 20px 100px;
+}
+
+section.what-i-do .tech {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.what-i-do .tech-list {
+    padding: 0 32px;
+}
+
+section.what-i-do .tech-logo {
+    width: 44px;
+    margin-bottom: 30px;
+}
+
+section.what-i-do .tech-title {
+    margin-bottom: 20px;
+}
+
+section.what-i-do .tech-description {
+    font-size: 16px;
 }
